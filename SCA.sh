@@ -12,6 +12,8 @@ if [[ "$UNAME" = "Linux" ]]; then
         echo "Installing: NodeJS 15"
         curl -sL https://deb.nodesource.com/setup_15.x | bash -
         apt install -y nodejs
+
+        echo "Installation Completed"
     fi
 fi
 
